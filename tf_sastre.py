@@ -3,7 +3,7 @@ import os, sys, json, re
 import logging, argparse
 from collections import OrderedDict
 
-# working variables #
+# working variables ###
 target_fname = "sdwan-tf-import"
 target_fname_tf = f"{target_fname}-config.tf"
 target_fname_bash = f"{target_fname}.sh"
