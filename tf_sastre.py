@@ -524,7 +524,7 @@ def terraform_variables (source_dir, destination_dir, use_api):
             device_variables[template_name] = content
     # if using API...
 
-    # start processing
+    # start processing 123
     
     for template_name, variables in device_variables.items():
         var_index = {}
